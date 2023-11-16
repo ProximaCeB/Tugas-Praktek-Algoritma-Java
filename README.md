@@ -4,14 +4,11 @@ This repository contains my solutions and implementations for the practical assi
 
 ## Table of Contents
 
-- Installation
-- Usage
-- Contributing
-- License
+- Tugas
 
-## Installation
+## Tugas
 
-Provide instructions on how to install or set up your project. You can include commands, dependencies, or any other relevant information.
+Hasil dari tugas Praktikum Algoritma yang telah saya kerjakan 
 
 ```bash
 git clone https://github.com/ProximaCeB/Tugas-Praktek-Algoritma-Java.git

@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class ProgramDeretBilangan {
     public static void main(String[] args) {
         try (Scanner data = new Scanner(System.in)) {
-            int a = 1;
-            int b;
-            double Sn;
-            System.out.print("Masukan angka : ");
+            int a = 1, b, t = 0;
+            System.out.print("Masukan jumlah angka : ");
             b = data.nextInt();
             if (b >= a) {
-                Sn = (double)b / 2 * (2 * a + (b - 1) * 1);
                 while (a <= b) {
-                    System.out.print(a);
-                    if (a < b) {
-                        System.out.print(" + ");
+                    t = t + a;
+                    if (a == b) {
+                        System.out.print(a);
+                    } else {
+                        System.out.print(a + " + ");
                     }
                     a++;
-                } System.out.print(" = " + (int)Sn);
+                }
+                System.out.print(" = " + t);
             } else {
                 System.out.println("Tidak valid");
             }

@@ -10,11 +10,7 @@ public class ProgramRataRataBilangan {
             while(b <= n){
                 System.out.print("Masukan nilai bilangan : ");
                 a = data.nextFloat(); 
-                if (b == 1) {
-                    t = 0 + a;
-                } else {
-                    t = t + a;
-                }
+                t = t + a;
                 b++;
             }
             r = t / n;

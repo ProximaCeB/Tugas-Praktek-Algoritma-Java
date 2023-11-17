@@ -2,23 +2,23 @@ import java.util.Scanner;
 
 public class ProgramRataRataBilangan {
     public static void main(String[] args) {
-        Scanner data = new Scanner(System.in);
-        System.out.print("Masukan angka pertama : ");
-		int a, b, c = 0, temp;
-        float Sn, R;
-        a = data.nextInt();
-		System.out.print("Masukan angka kedua : ");
-		b = data.nextInt();
-        if(a > b){
-            temp = a;
-            a = b;
-            b = temp;
-        Sn = (float)b / 2 * (2 * a + (b - 1) * 1);
-        do{
-            
-        } while (a <= b);{
-            
+        try (Scanner data = new Scanner(System.in)) {
+            int n, b = 1;
+            float a = 0, t = 0, r;
+            System.out.print("Berapa bilangan yang ingin anda masukan : ");
+            n = data.nextInt();
+            while(b <= n){
+                System.out.print("Masukan nilai bilangan : ");
+                a = data.nextFloat(); 
+                if (b == 1) {
+                    t = 0 + a;
+                } else {
+                    t = t + a;
+                }
+                b++;
             }
+            r = t / n;
+            System.out.println("Rata-rata dari data tersebut adalah : " + r);
         }
     }
 }

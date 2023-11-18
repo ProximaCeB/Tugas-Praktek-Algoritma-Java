@@ -6,11 +6,12 @@ public class ProgramKonfirmasiRataRata {
             float a = 0, t = 0, r;
             int n = 0;
             char k = 'y';
+            System.out.println("=== Program Menghitung Rata-rata Menggunakan Konfirmasi ===" + "\n");
             while (k == 'y' || k == 'Y') {
-                System.out.print("Masukan nilai : ");
+                n++;
+                System.out.print("Masukan nilai ke-" + n + " : ");
                 a = data.nextFloat();
                 t = t + a;
-                n++;
                 System.out.print("Apakah anda ingin memasukan nilai(Ya/Tidak) : ");
                 k = data.next().charAt(0);
             }

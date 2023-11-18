@@ -8,7 +8,7 @@ public class ProgramRataRataBilangan {
             System.out.println("=== Program Menentukan Rata-rata pada Bilangan yang Telah Ditentukan ===" + "\n");
             System.out.print("Berapa bilangan yang ingin anda masukan : ");
             n = data.nextInt();
-            if (n <= 0) {
+            if (n > 0) {
                 while(b <= n){
                     System.out.print("Masukan nilai bilangan : ");
                     a = data.nextFloat(); 

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MatrixMath {   
+public class Matriks {   
 public static void main( String[] args )
  {  Scanner keyboard = new Scanner(System.in);		
 	int i,j;

@@ -1,3 +1,4 @@
+package Praktek;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Array {

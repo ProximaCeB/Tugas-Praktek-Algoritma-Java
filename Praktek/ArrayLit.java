@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-public package Praktek;
-
+package Praktek;
+import java.util.ArrayList;;
 class ArrayLit {
 	public static void main(String[] args) {
 		ArrayList<String> cars = new ArrayList<String>();
